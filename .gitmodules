@@ -1,0 +1,3 @@
+[submodule "spring-webflux-caching-with-redis"]
+	path = spring-webflux-caching-with-redis
+	url = git@github.com:TokhirAsadov/spring-webflux-caching-with-redis.git
