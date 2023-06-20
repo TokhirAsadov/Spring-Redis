@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis-spring" />
+        <module name="redis-performance" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="redis-performance" target="17" />
       <module name="redis-spring" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="redis-performance" options="-parameters" />
       <module name="redis-spring" options="-parameters" />
     </option>
   </component>
